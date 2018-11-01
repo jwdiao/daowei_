@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>分页</title>
+
+  <link rel="stylesheet/less"  href="./less/serviceComment.less">
+  <link rel="stylesheet/less"  href="./less/clearFix.less">
+  <link rel="stylesheet/less"  href="./less/reset-css/less/reset.less">
+
+  <script src="https://cdn.bootcss.com/less.js/3.8.1/less.min.js"></script>
+
+
+
+  <link href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/template-web.js"></script>
+
+
+
+  <style type="text/css">
+
+  </style>
+</head>
+<body>
+<div id="app">
+  <header class="header-wrap">
+    <div class="header-content clearFix">
+      <a class="address" href="javascript:;">
+        <i></i>
+        <span>北京</span><span>[切换城市]</span>
+      </a>
+      <div class="app-nav">
+        <ul class="nav-list">
+          <li><a href="javascript:;" class="active">首页</a></li>
+          <li><a href="javascript:;">关于我们</a></li>
+          <li><a href="serviceProvider.html">服务商</a></li>
+          <li><a href="javascript:;">商家入驻</a></li>
+          <li><a href="javascript:;">商家登录</a></li>
+          <li><a href="javascript:;">到位APP</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="daowei-search">
+      <a class="daowei-logo" href="index.html">
+        <img src="img/logo.png" alt="logo">
+      </a>
+      <input class="search-fuwu" type="text" placeholder="输入关键字搜索商家,服务">
+      <span class="search-button">搜服务</span>
+      <img class="daowei-app" src="./img/daowayApp.png" alt="">
+    </div>
+  </header>
+  <div class="yishendaojia">
+    <div class="htit-center">
+      <div class="htit-left">
+        <b>宜生到家</b>
+        <i>营业时间：<em>08:00-22:30</em></i>
+        <i>最近可预约时间：<em>10月31日18:00</em></i>
+      </div>
+      <div class="htit-right">
+        <ul>
+          <li>
+            <i>97%</i>
+            接单率
+            <em>|</em>
+          </li>
+          <li>
+            <i>97%</i>
+            接单率
+            <em>|</em>
+          </li>
+          <li>
+            <i>97%</i>
+            接单率
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="navtit">
+    <ul>
+      <li class="slibingsclor">
+        服务项目
+      </li>
+      <li class="slibingsclor">
+        商家简介
+      </li>
+      <li class="slibingsclor">
+        用户评论
+      </li>
+    </ul>
+  </div>
+  <!--服务项目-->
+  <div class="service-center">
+    <div class="centerleft">
+      <h3><i>服务项目</i></h3>
+      <ul class="boxtap">
+        <li>
+          <img src="http://img.daoway.cn/img/2016/08/30/cce534a8-1360-487b-8e18-c404b9b71319_thumb.jpg" alt="">
+          <span class="spm">
+            <i>招牌Massage</i>
+            <i style="color: #929292">时长：90分钟 服务姿势：卧姿 适用介绍：适用于工作繁忙，...</i>
+            <i class="price">
+              <b style="margin-left: 0">
+                168<em>元/次</em>
+              </b>
+            </i>
+          </span>
+          <span class="spf">已售<i>5506</i></span>
+        </li>
+        <li>
+          <img src="http://img.daoway.cn/img/2016/08/30/cce534a8-1360-487b-8e18-c404b9b71319_thumb.jpg" alt="">
+          <span class="spm">
+            <i>招牌Massage</i>
+            <i style="color: #929292">时长：90分钟 服务姿势：卧姿 适用介绍：适用于工作繁忙，...</i>
+            <i class="price">
+              <b style="margin-left: 0">
+                168<em>元/次</em>
+              </b>
+            </i>
+          </span>
+          <span class="spf">已售<i>5506</i></span>
+        </li>
+        <li>
+          <img src="http://img.daoway.cn/img/2016/08/30/cce534a8-1360-487b-8e18-c404b9b71319_thumb.jpg" alt="">
+          <span class="spm">
+            <i>招牌Massage</i>
+            <i style="color: #929292">时长：90分钟 服务姿势：卧姿 适用介绍：适用于工作繁忙，...</i>
+            <i class="price">
+              <b style="margin-left: 0">
+                168<em>元/次</em>
+              </b>
+            </i>
+          </span>
+          <span class="spf">已售<i>5506</i></span>
+        </li>
+        <li>
+          <img src="http://img.daoway.cn/img/2016/08/30/cce534a8-1360-487b-8e18-c404b9b71319_thumb.jpg" alt="">
+          <span class="spm">
+            <i>招牌Massage</i>
+            <i style="color: #929292">时长：90分钟 服务姿势：卧姿 适用介绍：适用于工作繁忙，...</i>
+            <i class="price">
+              <b style="margin-left: 0">
+                168<em>元/次</em>
+              </b>
+            </i>
+          </span>
+          <span class="spf">已售<i>5506</i></span>
+        </li>
+        <li>
+          <img src="http://img.daoway.cn/img/2016/08/30/cce534a8-1360-487b-8e18-c404b9b71319_thumb.jpg" alt="">
+          <span class="spm">
+            <i>招牌Massage</i>
+            <i style="color: #929292">时长：90分钟 服务姿势：卧姿 适用介绍：适用于工作繁忙，...</i>
+            <i class="price">
+              <b style="margin-left: 0">
+                168<em>元/次</em>
+              </b>
+            </i>
+          </span>
+          <span class="spf">已售<i>5506</i></span>
+        </li>
+      </ul>
+      <div class="find-more">
+        <div class="btn">
+          查看更多项目 <img src="./img/fuwu_down2.jpg" alt="">
+        </div>
+    </div>
+      <h3><i>商家简介</i></h3>
+      <div class="shangjia-jianjie">
+        <div class="shangjia-name">
+          北京宜生健康科技有限公司
+          <img src="./img/renzheng.jpg" alt="">
+        </div>
+        <div class="shangjia-text">宜生到家”是国内领先的互联网+大健康O2O创新企业，以“中医外治法联合调理，个性化管理服务”做为切入点，通过富侨30年积累的品牌影响力及技师团队，宜生到家快速进行渠道资源整合及产品架构完善，不到半年时间将技师团队从不足百人扩充到600余人，研发出中医推拿、足疗spa、小儿推拿三大系列三十余种产品，成为领域内推拿师人数最多、服务品类最多的平台，塑造了上门推拿行业内最高服务标准。</div>
+      </div>
+      <div class="kongge"></div>
+      <h3><i>用户评论</i></h3>
+      <div class="comments">
+          <div class="comments-item">
+            <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/OeZhaQoYPDv2kBpNHibwdJSocSIawA6NqibTmVBgUNyFHCStnIXJMryPmjoTDTLRtKMQibDsWeuJsKv7UlMG8Q6Zg/132" alt="">
+            <ul>
+              <li>么么啊</li>
+              <li>
+                <span>
+                  <img src="./img/red_star.png" width="10px" height="10px" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                </span>
+                <em>2018-10-29</em>
+              </li>
+              <li class="commentdetail">准时到达，工具齐全</li>
+              <li class="commentposition">
+                <img src="./img/position.jpg" width="10px" height="10px" >北京  通州区
+              </li>
+            </ul>
+          </div>
+      </div>
+      <div class="comments">
+      <div class="comments-item">
+        <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/OeZhaQoYPDv2kBpNHibwdJSocSIawA6NqibTmVBgUNyFHCStnIXJMryPmjoTDTLRtKMQibDsWeuJsKv7UlMG8Q6Zg/132" alt="">
+        <ul>
+          <li>么么啊</li>
+          <li>
+                <span>
+                  <img src="./img/red_star.png" width="10px" height="10px" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                </span>
+            <em>2018-10-29</em>
+          </li>
+          <li class="commentdetail">准时到达，工具齐全</li>
+          <li class="commentposition">
+            <img src="./img/position.jpg" width="10px" height="10px" >北京  通州区
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="comments">
+        <div class="comments-item">
+          <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/OeZhaQoYPDv2kBpNHibwdJSocSIawA6NqibTmVBgUNyFHCStnIXJMryPmjoTDTLRtKMQibDsWeuJsKv7UlMG8Q6Zg/132" alt="">
+          <ul>
+            <li>么么啊</li>
+            <li>
+                <span>
+                  <img src="./img/red_star.png" width="10px" height="10px" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                </span>
+              <em>2018-10-29</em>
+            </li>
+            <li class="commentdetail">准时到达，工具齐全</li>
+            <li class="commentposition">
+              <img src="./img/position.jpg" width="10px" height="10px" >北京  通州区
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="comments">
+      <div class="comments-item">
+        <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/OeZhaQoYPDv2kBpNHibwdJSocSIawA6NqibTmVBgUNyFHCStnIXJMryPmjoTDTLRtKMQibDsWeuJsKv7UlMG8Q6Zg/132" alt="">
+        <ul>
+          <li>么么啊</li>
+          <li>
+                <span>
+                  <img src="./img/red_star.png" width="10px" height="10px" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                </span>
+            <em>2018-10-29</em>
+          </li>
+          <li class="commentdetail">准时到达，工具齐全</li>
+          <li class="commentposition">
+            <img src="./img/position.jpg" width="10px" height="10px" >北京  通州区
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="comments">
+        <div class="comments-item">
+          <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/OeZhaQoYPDv2kBpNHibwdJSocSIawA6NqibTmVBgUNyFHCStnIXJMryPmjoTDTLRtKMQibDsWeuJsKv7UlMG8Q6Zg/132" alt="">
+          <ul>
+            <li>么么啊</li>
+            <li>
+                <span>
+                  <img src="./img/red_star.png" width="10px" height="10px" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                </span>
+              <em>2018-10-29</em>
+            </li>
+            <li class="commentdetail">准时到达，工具齐全</li>
+            <li class="commentposition">
+              <img src="./img/position.jpg" width="10px" height="10px" >北京  通州区
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="comments-item">
+          <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/OeZhaQoYPDv2kBpNHibwdJSocSIawA6NqibTmVBgUNyFHCStnIXJMryPmjoTDTLRtKMQibDsWeuJsKv7UlMG8Q6Zg/132" alt="">
+          <ul>
+            <li>么么啊</li>
+            <li>
+                <span>
+                  <img src="./img/red_star.png" width="10px" height="10px" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                </span>
+              <em>2018-10-29</em>
+            </li>
+            <li class="commentdetail">准时到达，工具齐全</li>
+            <li class="commentposition">
+              <img src="./img/position.jpg" width="10px" height="10px" >北京  通州区
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="comments-item">
+          <img src="https://thirdwx.qlogo.cn/mmopen/vi_32/OeZhaQoYPDv2kBpNHibwdJSocSIawA6NqibTmVBgUNyFHCStnIXJMryPmjoTDTLRtKMQibDsWeuJsKv7UlMG8Q6Zg/132" alt="">
+          <ul>
+            <li>么么啊</li>
+            <li>
+                <span>
+                  <img src="./img/red_star.png" width="10px" height="10px" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                  <img src="./img/red_star.png" alt="">
+                </span>
+              <em>2018-10-29</em>
+            </li>
+            <li class="commentdetail">准时到达，工具齐全</li>
+            <li class="commentposition">
+              <img src="./img/position.jpg" width="10px" height="10px" >北京  通州区
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--分页-->
+      <div class="paging">
+        <ul>
+          <li class="btn pgUp enable">&lt;上一页</li>
+          <li class="pgNumber pgon">1</li>
+          <li class="pgNumber">2</li>
+          <li class="pgNumber">3</li>
+          <li class="ell" style="display: none">...</li>
+          <li class="pgNumber">4</li>
+          <li class="pgNumber">5</li>
+          <li class="pgNumber">6</li>
+          <li class="pgNumber">7</li>
+          <li class="pgNumber">8</li>
+          <li class="pgNumber">9</li>
+          <li class="ellipsis ellbehind">...</li>
+          <li class="btn pgDn">下一页&gt;</li>
+        </ul>
+      </div>
+
+    <div class="centerright">
+      <div class="shaoma1"><img src="./img/download.png" alt=""></div>
+      <div class="shaoma2"><img src="./img/daowayApp.png" alt=""></div>
+    </div>
+    </div>
+  </div>
+  <!--到位服务-->
+  <section class="guarantee">
+    <h1>到位<span>服务</span>保障</h1>
+    <p>到位平台担保交易安全，交易未成功100%退款</p>
+    <ul>
+      <li><img src="img/anquan.jpg" alt="baozhang">优选服务</li>
+      <li><img src="img/anquan.jpg" alt="baozhang">全程保障</li>
+      <li><img src="img/anquan.jpg" alt="baozhang">安全无忧</li>
+    </ul>
+    <footer class="hot-city clearFix">
+      <h2>热门城市</h2>
+      <div class="cities">
+        <a href="javascript:;">北京</a>
+        <a href="javascript:;">上海</a>
+        <a href="javascript:;">广州</a>
+        <a href="javascript:;">深圳</a>
+        <a href="javascript:;">成都</a>
+        <a href="javascript:;">天津</a>
+        <a href="javascript:;">南京</a>
+        <a href="javascript:;">杭州</a>
+        <a href="javascript:;">重庆</a>
+        <a href="javascript:;">苏州</a>
+        <a href="javascript:;">武汉</a>
+        <a href="javascript:;">长沙</a>
+        <a href="javascript:;">济南</a>
+        <a href="javascript:;">郑州</a>
+        <a href="javascript:;">西安</a>
+        <a href="javascript:;">沈阳</a>
+        <a href="javascript:;">福州</a>
+        <a href="javascript:;">厦门</a>
+        <a href="javascript:;">南昌</a>
+        <a href="javascript:;">合肥</a>
+        <a href="javascript:;">宁波</a>
+        <a href="javascript:;">无锡</a>
+        <a href="javascript:;">青岛</a>
+        <a href="javascript:;">大连</a>
+        <a href="javascript:;">东莞</a>
+        <a href="javascript:;">佛山</a>
+        <a href="javascript:;">石家庄</a>
+        <a href="javascript:;">哈尔滨</a>
+        <a href="javascript:;">太原</a>
+        <a href="javascript:;">昆明</a>
+        <a href="javascript:;">贵阳</a>
+        <a href="javascript:;">南宁</a>
+        <a href="javascript:;">温州</a>
+      </div>
+    </footer>
+  </section>
+</div>
+
+<script type="text/javascript">
+
+</script>
+
+
+
+
+</body>
+<script src="./js/serviceComment.js"></script>
+</html>
