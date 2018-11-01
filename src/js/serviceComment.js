@@ -1,7 +1,6 @@
 $(function () {
   $pgNumber = $('.pgNumber')
   $pgNumber.each(function(index,item){
-
     $(this).on('click', function () {
       item = $(this)
       $(this).addClass('pgon').siblings().removeClass('pgon')
@@ -25,6 +24,9 @@ $(function () {
             $('.pgDn').off('click').addClass('enable')
           }else{
             $('.pgDn').removeClass('enable')
+          }
+          if(item.index()<4){
+            $('.ell').css({"display":"none"})
           }
         })
         if(item.index()>4){
@@ -58,7 +60,12 @@ $(function () {
         $('.pgDn').removeClass('enable')
       }
     })
-
+  })
+  /*点击查看更多项目*/
+  $findMore = $('.btn001')
+  $findMore.on('click',function () {
+   $('.boxtap').children().css({"display":"block"})
+    $findMore.text("全部加载完毕")
   })
 
 })
